@@ -10,7 +10,7 @@
   "author": "Pamela Caguana",
   "license": "MIT",
   "dependencies": {
-    "connect-mongo": "^4.4.1",
+    "connect-mongo": "^3.2.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-handlebars": "^5.3.0",
