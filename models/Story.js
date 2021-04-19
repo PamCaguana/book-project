@@ -4,7 +4,7 @@ const StorySchema = new mongoose.Schema({
     title: {
         type: String,
         required: true,
-        trim: true //trims white space
+        trim: true, //trims white space
     },
     body: {
         type: String,
@@ -13,7 +13,7 @@ const StorySchema = new mongoose.Schema({
     status: {
         type: String,
         default: 'public',
-        enum: ['public', 'private']
+        enum: ['public', 'private'],
     },
     user: {
         type: mongoose.Schema.Types.ObjectId,
